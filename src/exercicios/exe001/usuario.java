@@ -8,8 +8,8 @@ public class usuario {
         System.out.println("Tv está ligada?"+ smartTv.canal);
         System.out.println("Tv está ligada?"+ smartTv.volume);
 
-        smartTv.definirCanal(30);
-        System.out.println(" Novo status => mudar canal ? "+ smartTv.canal);
+        smartTv.diminuirVolume();
+        System.out.println(" Novo status => mudar canal ? "+ smartTv.volume);
 
 
     }
